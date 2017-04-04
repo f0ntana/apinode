@@ -1,0 +1,25 @@
+{
+  "name": "apinode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "felipe fontana <felipefontanaf@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "knex": "knex"
+  },
+  "dependencies": {
+    "bookshelf": "^0.10.3",
+    "bookshelf-bcrypt": "^2.1.0",
+    "bookshelf-uuid": "^1.0.0",
+    "boom": "^4.3.1",
+    "hapi": "^16.1.0",
+    "hapi-auth-jwt2": "^7.2.4",
+    "joi": "^10.4.1",
+    "jsonwebtoken": "^7.3.0",
+    "knex": "^0.12.7",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "standard": "^9.0.0"
+  }
+}
